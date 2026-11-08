@@ -1,0 +1,1849 @@
+<!-- DevMeDoAnDrOiD -->
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <title>M : Reda Elkhshen 🇫🇷 | معلم خبير لغة فرنسية</title>
+    
+    <meta name="description" content="الموقع التعريفي الرسمي للأستاذ رضا الخشن - معلم لغة فرنسية بخبرة أكثر من 10 سنوات لطلاب المدارس الدولية ومدارس اللغات والمدارس الحكومية ونظام البكالوريا.">
+    <meta name="author" content="DevMeDoAnDrOiD">
+    <meta name="theme-color" content="#070c18">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="M : Reda Elkhshen 🇫🇷 | متميزون في تعليم اللغة الفرنسية">
+    <meta property="og:description" content="خبرة تزيد عن 10 سنوات في تدريس اللغة الفرنسية لطلاب المدارس الدولية واللغات والحكومية ونظام البكالوريا.">
+    <meta property="og:image" content="assets/images/reda_profile.jpg">
+    
+    <link rel="icon" href="assets/images/reda_profile.jpg" type="image/jpeg">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Tajawal:wght@300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        :root {
+            --bg-base: #060a14;
+            --bg-surface: #0b1222;
+            --bg-glass: rgba(14, 22, 41, 0.72);
+            --bg-glass-card: rgba(16, 26, 50, 0.58);
+            --border-soft: rgba(226, 194, 117, 0.16);
+            --border-hover: rgba(226, 194, 117, 0.42);
+            --border-blue: rgba(59, 130, 246, 0.25);
+            --gold-primary: #e2c275;
+            --gold-light: #fef08a;
+            --gold-gradient: linear-gradient(135deg, #fef08a 0%, #e2c275 50%, #b8923a 100%);
+            --blue-french: #2563eb;
+            --blue-glow: rgba(37, 99, 235, 0.35);
+            --blue-soft: #38bdf8;
+            --text-pure: #ffffff;
+            --text-muted: #94a3b8;
+            --text-subtle: #64748b;
+            --radius-sm: 10px;
+            --radius-md: 18px;
+            --radius-lg: 28px;
+            --radius-full: 9999px;
+            --shadow-subtle: 0 10px 30px -10px rgba(0, 0, 0, 0.6);
+            --shadow-card: 0 20px 40px -15px rgba(0, 0, 0, 0.7);
+            --shadow-glow: 0 0 35px rgba(226, 194, 117, 0.15);
+            --transition-smooth: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            outline: none;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            font-size: 16px;
+        }
+
+        body {
+            background-color: var(--bg-base);
+            color: var(--text-pure);
+            font-family: 'Tajawal', sans-serif;
+            overflow-x: hidden;
+            line-height: 1.6;
+            min-height: 100vh;
+            position: relative;
+        }
+
+        .bg-mesh-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            pointer-events: none;
+            z-index: -2;
+            overflow: hidden;
+        }
+
+        .ambient-mesh {
+            position: absolute;
+            width: 65vw;
+            height: 65vw;
+            border-radius: 50%;
+            filter: blur(140px);
+            opacity: 0.22;
+        }
+
+        .mesh-1 {
+            top: -15%;
+            right: -10%;
+            background: radial-gradient(circle, #1e3a8a, #172554);
+            animation: pulseGlow 18s ease-in-out infinite alternate;
+        }
+
+        .mesh-2 {
+            bottom: -20%;
+            left: -15%;
+            background: radial-gradient(circle, #78350f, #451a03);
+            opacity: 0.16;
+            animation: pulseGlow 22s ease-in-out infinite alternate-reverse;
+        }
+
+        .mesh-3 {
+            top: 45%;
+            left: 20%;
+            width: 40vw;
+            height: 40vw;
+            background: radial-gradient(circle, #1d4ed8, transparent);
+            opacity: 0.12;
+        }
+
+        @keyframes pulseGlow {
+            0% { transform: scale(1) translate(0, 0); }
+            50% { transform: scale(1.08) translate(-30px, 20px); }
+            100% { transform: scale(0.95) translate(20px, -20px); }
+        }
+
+        .grid-overlay {
+            position: fixed;
+            inset: 0;
+            background-image: 
+                linear-gradient(rgba(226, 194, 117, 0.03) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(226, 194, 117, 0.03) 1px, transparent 1px);
+            background-size: 60px 60px;
+            pointer-events: none;
+            z-index: -1;
+            opacity: 0.6;
+        }
+
+        .page-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+            position: relative;
+            z-index: 10;
+        }
+
+        header.navbar-fixed {
+            position: fixed;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: calc(100% - 48px);
+            max-width: 1140px;
+            z-index: 1000;
+            background: var(--bg-glass);
+            backdrop-filter: blur(24px);
+            -webkit-backdrop-filter: blur(24px);
+            border: 1px solid var(--border-soft);
+            border-radius: var(--radius-full);
+            padding: 12px 28px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: var(--shadow-card);
+            transition: var(--transition-smooth);
+        }
+
+        .nav-brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+        }
+
+        .brand-avatar {
+            width: 42px;
+            height: 42px;
+            border-radius: 50%;
+            border: 2px solid var(--gold-primary);
+            object-fit: cover;
+            box-shadow: 0 0 12px rgba(226, 194, 117, 0.3);
+        }
+
+        .brand-text-wrap {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .brand-name {
+            font-size: 1.05rem;
+            font-weight: 800;
+            color: var(--text-pure);
+            letter-spacing: 0.5px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .brand-flag {
+            font-size: 1.15rem;
+        }
+
+        .brand-title {
+            font-size: 0.72rem;
+            color: var(--gold-primary);
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 28px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            font-weight: 500;
+            transition: var(--transition-smooth);
+            position: relative;
+            padding: 4px 0;
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 0;
+            height: 2px;
+            background: var(--gold-gradient);
+            transition: width 0.3s ease;
+            border-radius: 2px;
+        }
+
+        .nav-links a:hover {
+            color: var(--text-pure);
+        }
+
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+
+        .nav-cta-btn {
+            background: var(--gold-gradient);
+            color: #0c1220;
+            padding: 10px 22px;
+            border-radius: var(--radius-full);
+            font-weight: 700;
+            font-size: 0.88rem;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: var(--transition-smooth);
+            box-shadow: 0 4px 15px rgba(226, 194, 117, 0.3);
+        }
+
+        .nav-cta-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(226, 194, 117, 0.45);
+        }
+
+        .mobile-toggle {
+            display: none;
+            background: none;
+            border: none;
+            color: var(--text-pure);
+            font-size: 1.4rem;
+            cursor: pointer;
+        }
+
+        .hero-section {
+            padding: 160px 0 80px;
+            min-height: 90vh;
+            display: flex;
+            align-items: center;
+        }
+
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1.15fr 0.85fr;
+            gap: 60px;
+            align-items: center;
+            width: 100%;
+        }
+
+        .hero-tag {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 6px 18px;
+            border-radius: var(--radius-full);
+            background: rgba(226, 194, 117, 0.08);
+            border: 1px solid var(--border-soft);
+            color: var(--gold-primary);
+            font-size: 0.85rem;
+            font-weight: 700;
+            margin-bottom: 24px;
+            backdrop-filter: blur(10px);
+        }
+
+        .hero-tag i {
+            color: var(--gold-primary);
+            font-size: 0.9rem;
+        }
+
+        .hero-title {
+            font-size: clamp(2.4rem, 4.5vw, 4rem);
+            font-weight: 900;
+            line-height: 1.2;
+            margin-bottom: 20px;
+            color: var(--text-pure);
+        }
+
+        .hero-title span.highlight {
+            background: var(--gold-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            display: inline-block;
+        }
+
+        .hero-subtitle {
+            font-size: clamp(1.05rem, 1.8vw, 1.25rem);
+            color: var(--text-muted);
+            line-height: 1.85;
+            margin-bottom: 36px;
+            max-width: 620px;
+        }
+
+        .hero-actions {
+            display: flex;
+            align-items: center;
+            gap: 18px;
+            flex-wrap: wrap;
+            margin-bottom: 45px;
+        }
+
+        .btn-primary-glow {
+            background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+            color: #ffffff;
+            padding: 16px 34px;
+            border-radius: var(--radius-md);
+            font-weight: 700;
+            font-size: 1.05rem;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            box-shadow: 0 10px 25px rgba(37, 99, 235, 0.35);
+            transition: var(--transition-smooth);
+        }
+
+        .btn-primary-glow:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 16px 35px rgba(37, 99, 235, 0.5);
+            background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+        }
+
+        .btn-secondary-glass {
+            background: rgba(255, 255, 255, 0.04);
+            color: var(--text-pure);
+            padding: 16px 28px;
+            border-radius: var(--radius-md);
+            font-weight: 600;
+            font-size: 1.02rem;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(15px);
+            transition: var(--transition-smooth);
+        }
+
+        .btn-secondary-glass:hover {
+            background: rgba(255, 255, 255, 0.08);
+            border-color: var(--border-soft);
+            transform: translateY(-2px);
+        }
+
+        .hero-portrait-col {
+            position: relative;
+            display: flex;
+            justify-content: center;
+        }
+
+        .portrait-frame-wrapper {
+            position: relative;
+            width: 100%;
+            max-width: 440px;
+        }
+
+        .portrait-glow-halo {
+            position: absolute;
+            inset: -15px;
+            background: radial-gradient(circle, rgba(226, 194, 117, 0.22) 0%, rgba(37, 99, 235, 0.15) 50%, transparent 70%);
+            border-radius: 40px;
+            filter: blur(25px);
+            z-index: 1;
+        }
+
+        .portrait-card {
+            position: relative;
+            z-index: 2;
+            border-radius: 32px;
+            overflow: hidden;
+            background: var(--bg-surface);
+            border: 1px solid var(--border-soft);
+            box-shadow: var(--shadow-card);
+            aspect-ratio: 1 / 1;
+        }
+
+        .portrait-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center 20%;
+            display: block;
+            transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .portrait-card:hover .portrait-img {
+            transform: scale(1.04);
+        }
+
+        .floating-badge {
+            position: absolute;
+            z-index: 5;
+            background: rgba(11, 18, 34, 0.88);
+            backdrop-filter: blur(20px);
+            border: 1px solid var(--border-soft);
+            border-radius: var(--radius-md);
+            padding: 14px 20px;
+            box-shadow: var(--shadow-card);
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            animation: badgeFloat 6s ease-in-out infinite alternate;
+        }
+
+        .badge-experience {
+            bottom: -20px;
+            right: -15px;
+        }
+
+        .badge-bac {
+            top: 25px;
+            left: -20px;
+            animation-delay: -3s;
+        }
+
+        @keyframes badgeFloat {
+            0% { transform: translateY(0); }
+            100% { transform: translateY(-10px); }
+        }
+
+        .badge-icon-box {
+            width: 44px;
+            height: 44px;
+            border-radius: 12px;
+            background: rgba(226, 194, 117, 0.12);
+            border: 1px solid var(--border-soft);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--gold-primary);
+            font-size: 1.2rem;
+        }
+
+        .badge-text-box h4 {
+            font-size: 1.15rem;
+            font-weight: 800;
+            color: var(--text-pure);
+            line-height: 1.2;
+        }
+
+        .badge-text-box p {
+            font-size: 0.78rem;
+            color: var(--gold-primary);
+            font-weight: 600;
+        }
+
+        .credibility-strip {
+            margin: 30px 0 80px;
+            padding: 24px 35px;
+            background: var(--bg-glass-card);
+            border: 1px solid var(--border-soft);
+            border-radius: var(--radius-lg);
+            backdrop-filter: blur(20px);
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            box-shadow: var(--shadow-subtle);
+        }
+
+        .stat-item {
+            text-align: center;
+            position: relative;
+        }
+
+        .stat-item:not(:last-child)::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 20%;
+            height: 60%;
+            width: 1px;
+            background: rgba(226, 194, 117, 0.15);
+        }
+
+        .stat-number {
+            font-size: clamp(1.8rem, 2.5vw, 2.4rem);
+            font-weight: 900;
+            color: var(--gold-primary);
+            line-height: 1.1;
+            margin-bottom: 6px;
+            font-family: 'Plus Jakarta Sans', 'Tajawal', sans-serif;
+        }
+
+        .stat-label {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            font-weight: 600;
+        }
+
+        .section-header {
+            text-align: center;
+            max-width: 720px;
+            margin: 0 auto 50px;
+        }
+
+        .section-eyebrow {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            color: var(--gold-primary);
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            margin-bottom: 12px;
+        }
+
+        .section-headline {
+            font-size: clamp(1.8rem, 3vw, 2.6rem);
+            font-weight: 800;
+            color: var(--text-pure);
+            line-height: 1.3;
+            margin-bottom: 16px;
+        }
+
+        .section-desc {
+            font-size: 1.05rem;
+            color: var(--text-muted);
+            line-height: 1.7;
+        }
+
+        .section-block {
+            padding: 80px 0;
+        }
+
+        .audience-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 24px;
+        }
+
+        .audience-card {
+            background: var(--bg-glass-card);
+            border: 1px solid var(--border-soft);
+            border-radius: var(--radius-lg);
+            padding: 36px 28px;
+            backdrop-filter: blur(25px);
+            transition: var(--transition-smooth);
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .audience-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 3px;
+            background: linear-gradient(90deg, transparent, var(--gold-primary), transparent);
+            opacity: 0;
+            transition: opacity 0.4s ease;
+        }
+
+        .audience-card:hover {
+            transform: translateY(-8px);
+            border-color: var(--border-hover);
+            box-shadow: 0 25px 50px -15px rgba(0, 0, 0, 0.8), var(--shadow-glow);
+        }
+
+        .audience-card:hover::before {
+            opacity: 1;
+        }
+
+        .card-icon-halo {
+            width: 60px;
+            height: 60px;
+            border-radius: 18px;
+            background: rgba(37, 99, 235, 0.12);
+            border: 1px solid var(--border-blue);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--blue-soft);
+            font-size: 1.6rem;
+            margin-bottom: 24px;
+            transition: var(--transition-smooth);
+        }
+
+        .audience-card:hover .card-icon-halo {
+            background: rgba(226, 194, 117, 0.15);
+            border-color: var(--gold-primary);
+            color: var(--gold-primary);
+            transform: rotate(-6deg) scale(1.05);
+        }
+
+        .audience-card h3 {
+            font-size: 1.35rem;
+            font-weight: 800;
+            color: var(--text-pure);
+            margin-bottom: 12px;
+        }
+
+        .audience-card p {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            line-height: 1.7;
+            margin-bottom: 20px;
+            flex-grow: 1;
+        }
+
+        .card-pill-tag {
+            align-self: flex-start;
+            font-size: 0.78rem;
+            font-weight: 700;
+            padding: 5px 12px;
+            border-radius: var(--radius-full);
+            background: rgba(255, 255, 255, 0.05);
+            color: var(--text-muted);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            letter-spacing: 0.5px;
+        }
+
+        .method-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: center;
+            background: var(--bg-glass-card);
+            border: 1px solid var(--border-soft);
+            border-radius: 36px;
+            padding: 50px;
+            backdrop-filter: blur(25px);
+        }
+
+        .method-list {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .method-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 18px;
+            padding: 16px;
+            border-radius: var(--radius-md);
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            transition: var(--transition-smooth);
+        }
+
+        .method-item:hover {
+            background: rgba(255, 255, 255, 0.05);
+            border-color: var(--border-soft);
+            transform: translateX(-6px);
+        }
+
+        .method-icon {
+            width: 44px;
+            height: 44px;
+            min-width: 44px;
+            border-radius: 12px;
+            background: rgba(226, 194, 117, 0.1);
+            color: var(--gold-primary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+        }
+
+        .method-info h4 {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text-pure);
+            margin-bottom: 4px;
+        }
+
+        .method-info p {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            line-height: 1.55;
+        }
+
+        .method-badge-side {
+            background: linear-gradient(145deg, #0d1527 0%, #070c18 100%);
+            border: 1px solid var(--border-soft);
+            border-radius: 28px;
+            padding: 40px 32px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .french-crest {
+            font-size: 3.5rem;
+            margin-bottom: 16px;
+            display: inline-block;
+        }
+
+        .crest-title {
+            font-family: 'Cinzel', serif;
+            font-size: 1.5rem;
+            color: var(--gold-primary);
+            margin-bottom: 8px;
+            letter-spacing: 1px;
+        }
+
+        .crest-sub {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            line-height: 1.7;
+            margin-bottom: 24px;
+        }
+
+        .instapay-section-card {
+            background: linear-gradient(135deg, rgba(20, 14, 38, 0.75) 0%, rgba(10, 16, 32, 0.85) 100%);
+            border: 1px solid rgba(226, 194, 117, 0.3);
+            border-radius: 36px;
+            padding: 50px;
+            backdrop-filter: blur(30px);
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 30px 60px -20px rgba(0, 0, 0, 0.8);
+        }
+
+        .instapay-bg-pattern {
+            position: absolute;
+            top: -50px;
+            left: -50px;
+            width: 300px;
+            height: 300px;
+            background: radial-gradient(circle, rgba(168, 85, 247, 0.15) 0%, transparent 70%);
+            pointer-events: none;
+        }
+
+        .instapay-layout {
+            display: grid;
+            grid-template-columns: 1.1fr 0.9fr;
+            gap: 40px;
+            align-items: center;
+            position: relative;
+            z-index: 2;
+        }
+
+        .instapay-meta-tag {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(168, 85, 247, 0.15);
+            color: #d8b4fe;
+            border: 1px solid rgba(168, 85, 247, 0.3);
+            padding: 6px 16px;
+            border-radius: var(--radius-full);
+            font-size: 0.85rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .instapay-title {
+            font-size: clamp(1.8rem, 2.6vw, 2.3rem);
+            font-weight: 800;
+            color: #ffffff;
+            margin-bottom: 16px;
+        }
+
+        .instapay-warning-box {
+            background: rgba(226, 194, 117, 0.08);
+            border-right: 4px solid var(--gold-primary);
+            padding: 14px 20px;
+            border-radius: 8px;
+            margin: 20px 0 25px;
+            font-size: 0.92rem;
+            color: #fef08a;
+            line-height: 1.6;
+        }
+
+        .instapay-glass-credit-card {
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.03) 100%);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 24px;
+            padding: 30px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(20px);
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            position: relative;
+        }
+
+        .card-top-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .chip-icon {
+            width: 42px;
+            height: 32px;
+            background: linear-gradient(135deg, #e2c275, #b8923a);
+            border-radius: 6px;
+            box-shadow: inset 0 0 4px rgba(0,0,0,0.4);
+        }
+
+        .instapay-brand-logo {
+            font-weight: 900;
+            font-size: 1.25rem;
+            color: #ffffff;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            letter-spacing: 0.5px;
+        }
+
+        .instapay-brand-logo span {
+            color: #c084fc;
+        }
+
+        .card-handle-display {
+            background: rgba(0, 0, 0, 0.4);
+            border: 1px dashed rgba(226, 194, 117, 0.4);
+            padding: 14px 20px;
+            border-radius: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            direction: ltr;
+        }
+
+        .handle-text {
+            font-family: 'Plus Jakarta Sans', monospace;
+            font-size: 1.1rem;
+            color: #ffffff;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+        }
+
+        .btn-copy-handle {
+            background: rgba(226, 194, 117, 0.2);
+            border: 1px solid var(--gold-primary);
+            color: var(--gold-light);
+            padding: 6px 14px;
+            border-radius: 8px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: var(--transition-smooth);
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .btn-copy-handle:hover {
+            background: var(--gold-primary);
+            color: #0b1222;
+        }
+
+        .card-footer-action {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .card-owner-name {
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: var(--text-pure);
+        }
+
+        .btn-open-instapay {
+            background: linear-gradient(135deg, #a855f7 0%, #7c3aed 100%);
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: var(--radius-full);
+            font-size: 0.9rem;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: var(--transition-smooth);
+            box-shadow: 0 4px 15px rgba(168, 85, 247, 0.4);
+        }
+
+        .btn-open-instapay:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(168, 85, 247, 0.6);
+        }
+
+        .contact-hub-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+
+        .contact-channel-card {
+            background: var(--bg-glass-card);
+            border: 1px solid var(--border-soft);
+            border-radius: 28px;
+            padding: 36px 28px;
+            backdrop-filter: blur(25px);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            transition: var(--transition-smooth);
+            position: relative;
+        }
+
+        .contact-channel-card.featured-channel {
+            border-color: rgba(37, 99, 235, 0.5);
+            background: linear-gradient(145deg, rgba(37, 99, 235, 0.08) 0%, rgba(14, 22, 41, 0.8) 100%);
+            box-shadow: 0 15px 35px -10px rgba(37, 99, 235, 0.3);
+        }
+
+        .channel-featured-badge {
+            position: absolute;
+            top: -12px;
+            background: linear-gradient(90deg, #2563eb, #38bdf8);
+            color: #ffffff;
+            padding: 4px 16px;
+            border-radius: var(--radius-full);
+            font-size: 0.75rem;
+            font-weight: 800;
+            letter-spacing: 0.5px;
+        }
+
+        .contact-channel-card:hover {
+            transform: translateY(-6px);
+            box-shadow: var(--shadow-card);
+            border-color: var(--border-hover);
+        }
+
+        .channel-icon-circle {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            margin-bottom: 20px;
+            transition: var(--transition-smooth);
+        }
+
+        .icon-wa-business {
+            background: rgba(37, 211, 102, 0.12);
+            color: #25d366;
+            border: 1px solid rgba(37, 211, 102, 0.3);
+        }
+
+        .icon-wa-personal {
+            background: rgba(56, 189, 248, 0.12);
+            color: #38bdf8;
+            border: 1px solid rgba(56, 189, 248, 0.3);
+        }
+
+        .icon-facebook {
+            background: rgba(24, 119, 242, 0.12);
+            color: #1877f2;
+            border: 1px solid rgba(24, 119, 242, 0.3);
+        }
+
+        .contact-channel-card:hover .channel-icon-circle {
+            transform: scale(1.1);
+        }
+
+        .channel-title {
+            font-size: 1.25rem;
+            font-weight: 800;
+            color: #ffffff;
+            margin-bottom: 8px;
+        }
+
+        .channel-role {
+            font-size: 0.88rem;
+            color: var(--text-muted);
+            margin-bottom: 18px;
+            line-height: 1.5;
+        }
+
+        .channel-number {
+            font-family: 'Plus Jakarta Sans', monospace;
+            font-size: 1.15rem;
+            font-weight: 800;
+            color: var(--gold-primary);
+            direction: ltr;
+            margin-bottom: 22px;
+        }
+
+        .btn-channel-action {
+            width: 100%;
+            padding: 13px;
+            border-radius: var(--radius-md);
+            font-weight: 700;
+            font-size: 0.95rem;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            transition: var(--transition-smooth);
+        }
+
+        .btn-wa-business {
+            background: #25d366;
+            color: #052e16;
+        }
+
+        .btn-wa-business:hover {
+            background: #22c55e;
+            box-shadow: 0 10px 25px rgba(37, 211, 102, 0.35);
+        }
+
+        .btn-wa-alt {
+            background: rgba(255, 255, 255, 0.06);
+            color: var(--text-pure);
+            border: 1px solid rgba(255, 255, 255, 0.12);
+        }
+
+        .btn-wa-alt:hover {
+            background: rgba(255, 255, 255, 0.12);
+            border-color: var(--border-soft);
+        }
+
+        .btn-fb-action {
+            background: #1877f2;
+            color: #ffffff;
+        }
+
+        .btn-fb-action:hover {
+            background: #1d4ed8;
+            box-shadow: 0 10px 25px rgba(24, 119, 242, 0.35);
+        }
+
+        footer.editorial-footer {
+            margin-top: 100px;
+            padding: 60px 0 35px;
+            border-top: 1px solid var(--border-soft);
+            background: rgba(6, 10, 20, 0.9);
+            backdrop-filter: blur(20px);
+            position: relative;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 1.5fr 1fr 1fr;
+            gap: 50px;
+            margin-bottom: 50px;
+        }
+
+        .footer-bio p {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            line-height: 1.8;
+            margin-top: 15px;
+            max-width: 420px;
+        }
+
+        .footer-heading {
+            font-size: 1.1rem;
+            font-weight: 800;
+            color: var(--gold-primary);
+            margin-bottom: 20px;
+            position: relative;
+            padding-bottom: 8px;
+        }
+
+        .footer-heading::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 30px;
+            height: 2px;
+            background: var(--gold-primary);
+        }
+
+        .footer-nav-list {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .footer-nav-list a {
+            color: var(--text-muted);
+            text-decoration: none;
+            font-size: 0.95rem;
+            transition: var(--transition-smooth);
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .footer-nav-list a:hover {
+            color: var(--gold-primary);
+            transform: translateX(-4px);
+        }
+
+        .footer-bottom-bar {
+            padding-top: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.06);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            font-size: 0.88rem;
+            color: var(--text-subtle);
+        }
+
+        .signature-tag {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            letter-spacing: 0.5px;
+            color: var(--text-muted);
+        }
+
+        .signature-tag strong {
+            color: var(--gold-primary);
+            font-weight: 700;
+        }
+
+        .toast-notification {
+            position: fixed;
+            bottom: 30px;
+            left: 50%;
+            transform: translate(-50%, 100px);
+            background: rgba(11, 18, 34, 0.96);
+            border: 1px solid var(--gold-primary);
+            color: var(--text-pure);
+            padding: 14px 28px;
+            border-radius: var(--radius-full);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6), 0 0 20px rgba(226, 194, 117, 0.2);
+            backdrop-filter: blur(20px);
+            z-index: 99999;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 0.95rem;
+            font-weight: 600;
+            opacity: 0;
+            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+            pointer-events: none;
+        }
+
+        .toast-notification.active {
+            transform: translate(-50%, 0);
+            opacity: 1;
+        }
+
+        .reveal-node {
+            opacity: 0;
+            transform: translateY(40px);
+            transition: opacity 0.8s ease, transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .reveal-node.revealed {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        @media (max-width: 992px) {
+            .hero-grid {
+                grid-template-columns: 1fr;
+                gap: 50px;
+                text-align: center;
+            }
+
+            .hero-subtitle {
+                margin: 0 auto 36px;
+            }
+
+            .hero-actions {
+                justify-content: center;
+            }
+
+            .portrait-frame-wrapper {
+                max-width: 380px;
+            }
+
+            .method-container {
+                grid-template-columns: 1fr;
+            }
+
+            .instapay-layout {
+                grid-template-columns: 1fr;
+            }
+
+            .contact-hub-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .credibility-strip {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 30px;
+            }
+
+            .stat-item:nth-child(2)::after {
+                display: none;
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr;
+                gap: 35px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            header.navbar-fixed {
+                top: 12px;
+                width: calc(100% - 24px);
+                padding: 10px 18px;
+            }
+
+            .nav-links {
+                display: none;
+                position: absolute;
+                top: calc(100% + 12px);
+                left: 0;
+                width: 100%;
+                background: rgba(11, 18, 34, 0.96);
+                border: 1px solid var(--border-soft);
+                border-radius: 20px;
+                padding: 20px;
+                flex-direction: column;
+                gap: 16px;
+                box-shadow: var(--shadow-card);
+                backdrop-filter: blur(25px);
+            }
+
+            .nav-links.open {
+                display: flex;
+            }
+
+            .mobile-toggle {
+                display: block;
+            }
+
+            .hero-section {
+                padding: 130px 0 60px;
+            }
+
+            .badge-bac {
+                top: 10px;
+                left: -10px;
+            }
+
+            .badge-experience {
+                bottom: -15px;
+                right: -10px;
+            }
+
+            .credibility-strip {
+                grid-template-columns: 1fr;
+                padding: 20px;
+            }
+
+            .stat-item::after {
+                display: none !important;
+            }
+
+            .instapay-section-card {
+                padding: 30px 20px;
+            }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            *, ::before, ::after {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+                scroll-behavior: auto !important;
+            }
+            .ambient-mesh {
+                animation: none !important;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="bg-mesh-container">
+        <div class="ambient-mesh mesh-1"></div>
+        <div class="ambient-mesh mesh-2"></div>
+        <div class="ambient-mesh mesh-3"></div>
+    </div>
+    
+    <div class="grid-overlay"></div>
+
+    <header class="navbar-fixed" id="navbar">
+        <a href="#hero" class="nav-brand">
+            <img src="assets/images/reda_profile.jpg" onerror="this.src='https://h.top4top.io/p_396318akg1.jpg'" alt="M : Reda Elkhshen" class="brand-avatar">
+            <div class="brand-text-wrap">
+                <span class="brand-name">M : Reda Elkhshen <span class="brand-flag">🇫🇷</span></span>
+                <span class="brand-title">Professeur de Français</span>
+            </div>
+        </a>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#hero">الرئيسية</a></li>
+            <li><a href="#audiences">الأنظمة التعليمية</a></li>
+            <li><a href="#methodology">المنهجية والمهارات</a></li>
+            <li><a href="#instapay">InstaPay</a></li>
+            <li><a href="#contact">قنوات التواصل</a></li>
+        </ul>
+
+        <div style="display: flex; align-items: center; gap: 12px;">
+            <a href="https://wa.me/201558186187?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%20%D8%A3%D8%B3%D8%AA%D8%A7%D8%B0%20%D8%B1%D8%B6%D8%A7%D8%8C%20%D8%AD%D8%A7%D8%A8%D8%A8%20%D8%A3%D8%B3%D8%AA%D9%81%D8%B3%D8%B1%20%D8%B9%D9%86%20%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84%20%D9%88%D9%85%D9%88%D8%A7%D8%B9%D9%8A%D8%AF%20%D8%AF%D8%B1%D9%88%D8%B3%20%D8%A7%D9%84%D9%84%D8%BA%D8%A9%20%D8%A7%D9%84%D9%81%D8%B1%D9%86%D8%B3%D9%8A%D8%A9" target="_blank" rel="noopener noreferrer" class="nav-cta-btn">
+                <i class="fab fa-whatsapp"></i>
+                <span>استفسار مباشر</span>
+            </a>
+            <button class="mobile-toggle" id="mobileToggle" aria-label="تبديل القائمة">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <div class="page-container">
+
+        <section class="hero-section" id="hero">
+            <div class="hero-grid">
+                
+                <div class="hero-content-col reveal-node">
+                    <div class="hero-tag">
+                        <i class="fas fa-certificate"></i>
+                        <span>التميز الأكاديمي واللغوي | Pédagogie d'Excellence</span>
+                    </div>
+
+                    <h1 class="hero-title">
+                        M : Reda Elkhshen <span class="brand-flag">🇫🇷</span><br>
+                        معلم خبير لغة فرنسية في <span class="highlight">أرقى الأنظمة التعليمية</span>
+                    </h1>
+
+                    <p class="hero-subtitle">
+                        معلم لغة فرنسية بخبرة معتمدة تتجاوز 10 سنوات في تدريس اللغة الفرنسية لطلاب المدارس الدولية ومدارس اللغات والمدارس الحكومية، مع التخصص والتمكن الكامل في متطلبات نظام البكالوريا.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="https://wa.me/201558186187?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%20%D8%A3%D8%B3%D8%AA%D8%A7%D8%B0%20%D8%B1%D8%B6%D8%A7%D8%8C%20%D8%AD%D8%A7%D8%A8%D8%A8%20%D8%A3%D8%B3%D8%AA%D9%81%D8%B3%D8%B1%20%D8%B9%D9%86%20%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84%20%D9%88%D9%85%D9%88%D8%A7%D8%B9%D9%8A%D8%AF%20%D8%AF%D8%B1%D9%88%D8%B3%20%D8%A7%D9%84%D9%84%D8%BA%D8%A9%20%D8%A7%D9%84%D9%81%D8%B1%D9%86%D8%B3%D9%8A%D8%A9" target="_blank" rel="noopener noreferrer" class="btn-primary-glow">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>تواصل عبر واتساب الأعمال</span>
+                        </a>
+
+                        <a href="#audiences" class="btn-secondary-glass">
+                            <i class="fas fa-layer-group"></i>
+                            <span>استكشف الأنظمة التعليمية</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-portrait-col reveal-node">
+                    <div class="portrait-frame-wrapper">
+                        <div class="portrait-glow-halo"></div>
+                        
+                        <div class="portrait-card">
+                            <img src="assets/images/reda_profile.jpg" onerror="this.src='https://h.top4top.io/p_396318akg1.jpg'" alt="الأستاذ رضا الخشن معلم لغة فرنسية" class="portrait-img">
+                        </div>
+
+                        <div class="floating-badge badge-experience">
+                            <div class="badge-icon-box">
+                                <i class="fas fa-award"></i>
+                            </div>
+                            <div class="badge-text-box">
+                                <h4>+10 سنوات</h4>
+                                <p>خبرة تدريسية معتمدة</p>
+                            </div>
+                        </div>
+
+                        <div class="floating-badge badge-bac">
+                            <div class="badge-icon-box" style="background: rgba(37, 99, 235, 0.15); color: #38bdf8;">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div class="badge-text-box">
+                                <h4>نظام البكالوريا</h4>
+                                <p>Baccalauréat Français</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="credibility-strip reveal-node">
+            <div class="stat-item">
+                <div class="stat-number">+10</div>
+                <div class="stat-label">سنوات خبرة تعليمية رائدة</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">4</div>
+                <div class="stat-label">أنظمة ومسارات تعليمية متكاملة</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">100%</div>
+                <div class="stat-label">تأسيس لغوي وتأهيل امتحانات</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">Direct</div>
+                <div class="stat-label">تواصل مباشر ومتابعة مستمرة</div>
+            </div>
+        </section>
+
+        <section class="section-block" id="audiences">
+            <div class="section-header reveal-node">
+                <div class="section-eyebrow">
+                    <i class="fas fa-compass"></i>
+                    <span>الفئات والأنظمة المعتمدة</span>
+                </div>
+                <h2 class="section-headline">خبرة ممتدة عبر كبرى الأنظمة التعليمية</h2>
+                <p class="section-desc">
+                    منهجية تدريسية مرنة ومصممة بدقة لتلبي المعايير المعتمدة لكل نظام تعليمي، مما يضمن للطالب التفوق والتأسيس الشامل.
+                </p>
+            </div>
+
+            <div class="audience-grid">
+                
+                <div class="audience-card reveal-node">
+                    <div class="card-icon-halo">
+                        <i class="fas fa-globe-europe"></i>
+                    </div>
+                    <h3>المدارس الدولية</h3>
+                    <p>
+                        برامج تدريس متخصصة تواكب المعايير العالمية لمدارس International، مع التركيز على طلاقة النطق، الفهم اللغوي العميق، والتفاعل الصفي بالفرنسية.
+                    </p>
+                    <span class="card-pill-tag">International Schools</span>
+                </div>
+
+                <div class="audience-card reveal-node">
+                    <div class="card-icon-halo">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <h3>مدارس اللغات</h3>
+                    <p>
+                        شرح معمق ومكثف لمناهج مدارس اللغات الرسمية والخاصة، مع الاهتمام بتمكين الطالب من القواعد المعقدة والمفردات التخصصية.
+                    </p>
+                    <span class="card-pill-tag">Language Schools</span>
+                </div>
+
+                <div class="audience-card reveal-node">
+                    <div class="card-icon-halo">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <h3>المدارس الحكومية</h3>
+                    <p>
+                        تبسيط وتأصيل كامل لقواعد اللغة الفرنسية وفق أحدث مواصفات الورقة الامتحانية الوزارية، لضمان الحصول على الدرجات النهائية بثقة.
+                    </p>
+                    <span class="card-pill-tag">Government Curricula</span>
+                </div>
+
+                <div class="audience-card reveal-node">
+                    <div class="card-icon-halo">
+                        <i class="fas fa-scroll"></i>
+                    </div>
+                    <h3>نظام البكالوريا</h3>
+                    <p>
+                        إعداد متقدم ومكثف لطلاب نظام البكالوريا (Baccalauréat)، يشمل تحليل النصوص، التعبير المقالي الأكاديمي، وتقنيات الإجابة الاحترافية.
+                    </p>
+                    <span class="card-pill-tag">Système Baccalauréat</span>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="section-block" id="methodology">
+            <div class="method-container reveal-node">
+                
+                <div class="method-info-col">
+                    <div class="section-eyebrow">
+                        <i class="fas fa-lightbulb"></i>
+                        <span>المنهجية التدريسية والمهارات</span>
+                    </div>
+                    <h2 class="section-headline" style="text-align: right; margin-bottom: 24px;">ركائز التميز الأكاديمي</h2>
+                    
+                    <div class="method-list">
+                        
+                        <div class="method-item">
+                            <div class="method-icon">
+                                <i class="fas fa-spell-check"></i>
+                            </div>
+                            <div class="method-info">
+                                <h4>شرح وتأصيل قواعد اللغة (Grammaire & Syntaxe)</h4>
+                                <p>تفكيك القواعد وتبسيطها بأسلوب منطقي يرسخ الفهم دون الحاجة للحفظ الأعمى.</p>
+                            </div>
+                        </div>
+
+                        <div class="method-item">
+                            <div class="method-icon">
+                                <i class="fas fa-comments"></i>
+                            </div>
+                            <div class="method-info">
+                                <h4>المحادثة والنطق الصحيح (Phonétique & Oral)</h4>
+                                <p>تدريب الطالب على مخارج الحروف الصوتية الفرنسية واكتساب الثقة في التحدث.</p>
+                            </div>
+                        </div>
+
+                        <div class="method-item">
+                            <div class="method-icon">
+                                <i class="fas fa-pen-nib"></i>
+                            </div>
+                            <div class="method-info">
+                                <h4>الكتابة والإنشاء (Expression Écrite)</h4>
+                                <p>بناء القدرة على صياغة الجمل والفقرات والموضوعات بأسلوب فرنسي سليم ومعبر.</p>
+                            </div>
+                        </div>
+
+                        <div class="method-item">
+                            <div class="method-icon">
+                                <i class="fas fa-clipboard-check"></i>
+                            </div>
+                            <div class="method-info">
+                                <h4>التدريب الامتحاني والمراجعات (Préparation aux Examens)</h4>
+                                <p>حل نماذج تدريبية شاملة ومحاكاة بيئة الامتحانات المعتمدة لضمان أعلى الدرجات.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="method-badge-side">
+                    <div class="french-crest">⚜️</div>
+                    <h3 class="crest-title">L'Art d'Enseigner</h3>
+                    <p class="crest-sub">
+                        «تعليم اللغة الفرنسية ليس مجرد تدريس مادة دراسية، بل هو فتح آفاق لثقافة راقية وتفكير منظم وفصاحة لسان تدوم مدى الحياة.»
+                    </p>
+                    <div style="display: inline-block; padding: 10px 24px; border-radius: var(--radius-full); background: rgba(226, 194, 117, 0.1); border: 1px solid var(--border-soft); color: var(--gold-primary); font-weight: 700; font-size: 0.9rem;">
+                        M : Reda Elkhshen 🇫🇷
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="section-block" id="instapay">
+            <div class="instapay-section-card reveal-node">
+                <div class="instapay-bg-pattern"></div>
+                
+                <div class="instapay-layout">
+                    
+                    <div class="instapay-info-col">
+                        <div class="instapay-meta-tag">
+                            <i class="fas fa-money-bill-transfer"></i>
+                            <span>بوابة التحويل المالي الإلكتروني | InstaPay Gateway</span>
+                        </div>
+                        
+                        <h2 class="instapay-title">رابط ومعرّف التحويل عبر InstaPay</h2>
+                        
+                        <p style="color: var(--text-muted); font-size: 1.05rem; line-height: 1.8;">
+                            تسهيلاً على أولياء الأمور والطلاب، نوفر وسيلة التحويل المالي الرسمية والمعتمدة عبر شبكة المدفوعات اللحظية المصرية (InstaPay).
+                        </p>
+
+                        <div class="instapay-warning-box">
+                            <i class="fas fa-info-circle" style="margin-left: 6px;"></i>
+                            <strong>تنويه هام:</strong> هذا الرابط مخصص حصرياً للتحويلات المالية المباشرة عبر تطبيق إنستاباي، ولا يُعد رابطاً لحجز الدروس أو التسجيل الآلي.
+                        </div>
+
+                        <a href="https://ipn.eg/S/redaelkhshen/instapay/6Jcs4X" target="_blank" rel="noopener noreferrer" class="btn-primary-glow" style="display: inline-flex; align-self: flex-start; background: linear-gradient(135deg, #9333ea, #6b21a8);">
+                            <i class="fas fa-arrow-up-right-from-square"></i>
+                            <span>فتح رابط التحويل المباشر في InstaPay</span>
+                        </a>
+                    </div>
+
+                    <div class="instapay-card-col">
+                        <div class="instapay-glass-credit-card">
+                            
+                            <div class="card-top-row">
+                                <div class="chip-icon"></div>
+                                <div class="instapay-brand-logo">Insta<span>Pay</span></div>
+                            </div>
+
+                            <div style="display: flex; flex-direction: column; gap: 8px;">
+                                <span style="font-size: 0.8rem; color: var(--gold-primary); font-weight: 700; text-transform: uppercase;">عنوان الدفع اللحظي (IPA)</span>
+                                
+                                <div class="card-handle-display">
+                                    <span class="handle-text" id="instaHandle">redaelkhshen@instapay</span>
+                                    <button class="btn-copy-handle" id="copyHandleBtn" title="نسخ المعرف">
+                                        <i class="fas fa-copy"></i>
+                                        <span id="copyBtnText">نسخ</span>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="card-footer-action">
+                                <div>
+                                    <span style="display: block; font-size: 0.75rem; color: var(--text-subtle);">المستفيد المعتمد</span>
+                                    <span class="card-owner-name">M : Reda Elkhshen</span>
+                                </div>
+                                <a href="https://ipn.eg/S/redaelkhshen/instapay/6Jcs4X" target="_blank" rel="noopener noreferrer" class="btn-open-instapay">
+                                    <span>تحويل سريع</span>
+                                    <i class="fas fa-bolt"></i>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="section-block" id="contact">
+            <div class="section-header reveal-node">
+                <div class="section-eyebrow">
+                    <i class="fas fa-comments"></i>
+                    <span>قنوات التواصل المعتمدة</span>
+                </div>
+                <h2 class="section-headline">تواصل مباشر وسريع</h2>
+                <p class="section-desc">
+                    اختر الوسيلة الأنسب لك للاستفسار عن جداول الدروس والمواعيد المتاحة لكل نظام تعليمي.
+                </p>
+            </div>
+
+            <div class="contact-hub-grid">
+                
+                <div class="contact-channel-card featured-channel reveal-node">
+                    <div class="channel-featured-badge">القناة الرئيسية للاستفسارات</div>
+                    <div class="channel-icon-circle icon-wa-business">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <h3 class="channel-title">واتساب الأعمال</h3>
+                    <p class="channel-role">القناة المعتمدة لاستقبال استفسارات أولياء الأمور والطلاب وحجز المواعيد الدراسية.</p>
+                    <div class="channel-number">01558186187</div>
+                    <a href="https://wa.me/201558186187?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%20%D8%A3%D8%B3%D8%AA%D8%A7%D8%B0%20%D8%B1%D8%B6%D8%A7%D8%8C%20%D8%AD%D8%A7%D8%A8%D8%A8%20%D8%A3%D8%B3%D8%AA%D9%81%D8%B3%D8%B1%20%D8%B9%D9%86%20%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84%20%D9%88%D9%85%D9%88%D8%A7%D8%B9%D9%8A%D8%AF%20%D8%AF%D8%B1%D9%88%D8%B3%20%D8%A7%D9%84%D9%84%D8%BA%D8%A9%20%D8%A7%D9%84%D9%81%D8%B1%D9%86%D8%B3%D9%8A%D8%A9" target="_blank" rel="noopener noreferrer" class="btn-channel-action btn-wa-business">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>محادثة واتساب أعمال</span>
+                    </a>
+                </div>
+
+                <div class="contact-channel-card reveal-node">
+                    <div class="channel-icon-circle icon-wa-personal">
+                        <i class="fas fa-mobile-screen"></i>
+                    </div>
+                    <h3 class="channel-title">واتساب الشخصي</h3>
+                    <p class="channel-role">قناة تواصل إضافية وبديلة للمتابعات المباشرة والحالات الخاصة عند الحاجة.</p>
+                    <div class="channel-number">01005664564</div>
+                    <a href="https://wa.me/201005664564?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%20%D8%A3%D8%B3%D8%AA%D8%A7%D8%B0%20%D8%B1%D8%B6%D8%A7%D8%8C%20%D8%AA%D9%88%D8%A7%D8%B5%D9%84%20%D8%B4%D8%AE%D8%B5%D9%8A" target="_blank" rel="noopener noreferrer" class="btn-channel-action btn-wa-alt">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>محادثة واتساب شخصي</span>
+                    </a>
+                </div>
+
+                <div class="contact-channel-card reveal-node">
+                    <div class="channel-icon-circle icon-facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </div>
+                    <h3 class="channel-title">الصفحة الرسمية Facebook</h3>
+                    <p class="channel-role">لمتابعة المنشورات التعليمية والنصائح اللغوية وآخر التحديثات والإعلانات الدراسية.</p>
+                    <div class="channel-number" style="font-size: 1rem;">reda.elkhshen</div>
+                    <a href="https://www.facebook.com/reda.elkhshen" target="_blank" rel="noopener noreferrer" class="btn-channel-action btn-fb-action">
+                        <i class="fab fa-facebook-f"></i>
+                        <span>زيارة صفحة فيسبوك</span>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+    </div>
+
+    <footer class="editorial-footer">
+        <div class="page-container">
+            <div class="footer-grid">
+                
+                <div class="footer-bio">
+                    <div class="brand-name" style="font-size: 1.3rem; margin-bottom: 8px;">
+                        M : Reda Elkhshen <span class="brand-flag">🇫🇷</span>
+                    </div>
+                    <div class="brand-title">Professeur de Langue Française</div>
+                    <p>
+                        أكثر من 10 سنوات من التميز والريادة في تدريس اللغة الفرنسية لطلاب المدارس الدولية ومدارس اللغات والمدارس الحكومية ونظام البكالوريا.
+                    </p>
+                </div>
+
+                <div>
+                    <h4 class="footer-heading">روابط سريعة</h4>
+                    <ul class="footer-nav-list">
+                        <li><a href="#hero"><i class="fas fa-angle-left"></i> الرئيسية</a></li>
+                        <li><a href="#audiences"><i class="fas fa-angle-left"></i> الأنظمة التعليمية</a></li>
+                        <li><a href="#methodology"><i class="fas fa-angle-left"></i> المنهجية والمهارات</a></li>
+                        <li><a href="#instapay"><i class="fas fa-angle-left"></i> تحويل InstaPay</a></li>
+                        <li><a href="#contact"><i class="fas fa-angle-left"></i> قنوات التواصل</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="footer-heading">التواصل المعتمد</h4>
+                    <ul class="footer-nav-list">
+                        <li><a href="https://wa.me/201558186187" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp" style="color: #25d366;"></i> واتساب الأعمال: 01558186187</a></li>
+                        <li><a href="https://wa.me/201005664564" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp" style="color: #38bdf8;"></i> واتساب الشخصي: 01005664564</a></li>
+                        <li><a href="https://www.facebook.com/reda.elkhshen" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f" style="color: #1877f2;"></i> فيسبوك: reda.elkhshen</a></li>
+                        <li><a href="https://ipn.eg/S/redaelkhshen/instapay/6Jcs4X" target="_blank" rel="noopener noreferrer"><i class="fas fa-money-bill-transfer" style="color: #c084fc;"></i> تحويل InstaPay المباشر</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom-bar">
+                <div>
+                    جميع الحقوق محفوظة © 2026 M : Reda Elkhshen 🇫🇷
+                </div>
+                <div class="signature-tag">
+                    Engineered & Crafted by <strong>DevMeDoAnDrOiD</strong>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="toast-notification" id="toastBox">
+        <i class="fas fa-circle-check" style="color: var(--gold-primary); font-size: 1.2rem;"></i>
+        <span id="toastMessageText">تم بنجاح</span>
+    </div>
+
+    <script>
+        const navToggle = document.getElementById('mobileToggle');
+        const navMenu = document.getElementById('navLinks');
+
+        navToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('open');
+            const icon = navToggle.querySelector('i');
+            if (navMenu.classList.contains('open')) {
+                icon.className = 'fas fa-xmark';
+            } else {
+                icon.className = 'fas fa-bars';
+            }
+        });
+
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('open');
+                navToggle.querySelector('i').className = 'fas fa-bars';
+            });
+        });
+
+        const revealOptions = {
+            threshold: 0.12,
+            rootMargin: '0px 0px -40px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('revealed');
+                }
+            });
+        }, revealOptions);
+
+        document.querySelectorAll('.reveal-node').forEach(node => {
+            observer.observe(node);
+        });
+
+        const copyBtn = document.getElementById('copyHandleBtn');
+        const handleEl = document.getElementById('instaHandle');
+        const toast = document.getElementById('toastBox');
+        const toastTxt = document.getElementById('toastMessageText');
+        const copyTxt = document.getElementById('copyBtnText');
+
+        function triggerToast(msg) {
+            toastTxt.textContent = msg;
+            toast.classList.add('active');
+            setTimeout(() => {
+                toast.classList.remove('active');
+            }, 3000);
+        }
+
+        copyBtn.addEventListener('click', () => {
+            const textToCopy = handleEl.textContent.trim();
+            if (navigator.clipboard && window.isSecureContext) {
+                navigator.clipboard.writeText(textToCopy).then(() => {
+                    handleCopySuccess();
+                }).catch(() => {
+                    fallbackCopy(textToCopy);
+                });
+            } else {
+                fallbackCopy(textToCopy);
+            }
+        });
+
+        function handleCopySuccess() {
+            copyTxt.textContent = 'تم النسخ!';
+            triggerToast('تم نسخ عنوان InstaPay بنجاح: ' + handleEl.textContent.trim());
+            setTimeout(() => {
+                copyTxt.textContent = 'نسخ';
+            }, 2500);
+        }
+
+        function fallbackCopy(text) {
+            const textArea = document.createElement('textarea');
+            textArea.value = text;
+            textArea.style.position = 'fixed';
+            textArea.style.left = '-999999px';
+            document.body.appendChild(textArea);
+            textArea.focus();
+            textArea.select();
+            try {
+                document.execCommand('copy');
+                handleCopySuccess();
+            } catch (err) {
+                triggerToast('عذراً، يرجى نسخ المعرف يدوياً');
+            }
+            document.body.removeChild(textArea);
+        }
+
+        window.addEventListener('scroll', () => {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 40) {
+                navbar.style.boxShadow = '0 20px 40px rgba(0, 0, 0, 0.85)';
+                navbar.style.borderColor = 'rgba(226, 194, 117, 0.35)';
+            } else {
+                navbar.style.boxShadow = 'var(--shadow-card)';
+                navbar.style.borderColor = 'var(--border-soft)';
+            }
+        });
+    </script>
+</body>
+</html>
+<!-- Copyright (c) 2026 MeDoAnDrOiD. All Rights Reserved. -->

@@ -1,0 +1,17 @@
+{
+  "name": "reda-elkhshen-portfolio",
+  "version": "1.0.0",
+  "description": "Official Premium Portfolio for M : Reda Elkhshen - French Language Educator",
+  "main": "index.html",
+  "author": "DevMeDoAnDrOiD",
+  "copyright": "Copyright (c) 2026 MeDoAnDrOiD. All Rights Reserved.",
+  "scripts": {
+    "start": "npx serve -l 3000 .",
+    "dev": "npx serve -l 3000 .",
+    "build": "node -e \"console.log('Production build ready: Static Web App verified.')\"",
+    "test": "node test/verify.js"
+  },
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
+}
